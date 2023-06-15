@@ -17,3 +17,21 @@ html, body{
     border-radius: 100px;
     background-color: black;
 }
+.a{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(167, 46, 46);
+    animation-name: cube;
+    animation-duration: 2s;
+}
+
+@keyframes cube {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 500px;
+    }
+}
